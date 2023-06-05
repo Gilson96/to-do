@@ -1,8 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .navBar {
+    background: #f7f5ef;
+    width: 100%;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2% 0% 2% 3%;
+    font-family: 'Pacifico', cursive;
+    color: #ebb002;
+    font-size: 2rem;
+  }
+
