@@ -3,7 +3,7 @@ import React from 'react';
 import Todos from './components/Todos';
 import Todo from './todo';
 import NewTodo from './components/NewTodo';
-
+import Icon from './icon';
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
@@ -30,6 +30,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="navBar">To-Do made with <Icon class={'tsIcon'}/></div>
       <NewTodo onAddTodo={addTodoHandler}/>
       <Todos items={todos} onRemoveTodo={removeTodoHandler}/>
     </div>
