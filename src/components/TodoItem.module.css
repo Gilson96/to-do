@@ -1,6 +1,18 @@
 .item {
     margin: 1rem 0;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+    padding: 3%;
     background-color: #f7f5ef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+
+}
+
+.close{
+    font-size: 1.5rem;
+    color: red;
+    margin-right: 1%;
+    cursor: pointer;
 }
