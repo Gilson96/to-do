@@ -23,3 +23,10 @@
     font-size: 2rem;
   }
 
+  @media screen and (max-width: 350px) {
+    .navBar {
+      font-size: 1.5rem;
+    }
+  
+  }
+

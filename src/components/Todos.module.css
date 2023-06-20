@@ -4,3 +4,10 @@
     padding: 0;
     width: 40rem;
   }
+
+  @media screen and (max-width: 350px) {
+    .todos {
+      width: 100%;
+    }
+  
+  }
